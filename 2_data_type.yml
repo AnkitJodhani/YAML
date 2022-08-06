@@ -1,0 +1,74 @@
+# in this session we will learn about DATA TYPE
+
+# STRING variables
+# after samicolumn there must be SPACE
+
+myself: Ankit
+surname: "Jodhani"
+house: "patel"
+
+bio: Ankit is very good student and always think about how to work harder.
+
+# to write two line statment
+bio_deepak: |
+  deepak is a bussiness man
+  he is lives in rajkot.
+
+# write a single line in multiple line
+single_line: >
+  this
+  will
+  all
+  will
+  be
+  consider
+  as
+  single
+  line.
+
+# INTERGER
+number: 4532
+exponential_num: 12E32
+# FLOAT
+real: 45.2025
+marks: 4658.25
+
+# Bloolean data tyep
+isActive: No # false, true, False, n, N, No
+isDeactive: Yes # True, true, Y, y, Yes
+
+# specify the data type
+
+enroll_num: !!int 0
+positive_num: !!int 23
+negative_num: !!int -15
+binary_num: !!int 0b101
+octal_num: !!int 00123
+hex_num: !!int 0xffffff
+comma_value: !!int +420_000 # same as 420,000
+
+
+# floting point numbers
+
+simpleNum: !!float 20.25
+complexNum: !!float 22.5
+marks: !!float 23.200
+infinit: !!float .inf #Infinity
+not a num:  .non # ".non"
+
+# boolean
+isRunning: !!bool Yes # true
+
+# strings
+name: !!str Ankit jodhani
+
+# nulll
+mobile_num: !!null Null # null
+
+# key is null
+~: ankit jodhani # null : ankit jodhani
+
+# data and time
+date: 12-32-2002
+todays_date: 06-08-2022
+b_date: 2002-03-19

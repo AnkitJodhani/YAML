@@ -1,0 +1,52 @@
+# This tutorial for advanced data type
+
+# Block
+student: !!seq
+  - name
+  - enrollment number
+  - phone number
+  - address
+  - telephone number
+  - bus pass
+  - id number
+
+---
+# same thing we can store like this
+student: [name, enrollment number, phone number, address]
+
+---
+dictionary:
+  - book name
+  - author
+  -
+  - Null
+  -
+---
+# nested blocks
+
+GoT:
+  - pantos
+  - essos
+  - dothraki: [khal drogo, denny, ser johrah mormont]
+  - westoros:
+      - Targaryan
+      - Starks
+      - Barthon
+      - Lenister
+      - Dorn
+      - Tyrell
+  - Ashai
+  - Black sea
+  - Marin
+  - velaryon
+
+# set
+
+numners: !!set
+  ? 1
+  ? 1
+  ? 2
+  ? 3
+  ? 2
+
+#

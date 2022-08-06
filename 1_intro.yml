@@ -1,0 +1,57 @@
+# thsi is the firs YAML file
+
+# NOTE : YAML is case sensitive "a" and "A" is different
+# NOTE : Indentation is so important
+# NOTE : YAML is collection of 0 or more document. it is either list or block or key valu pair ect
+
+# Key value pair
+# this is one type of document
+# 1st way to create KEY VALUE
+19: "Ankit jodhani"
+18: "Isha godaliya"
+17: "Juhil godhani"
+31: "Priyank naliyadra"
+66: "Tushar bhut"
+52: "Priyam sakariya"
+03: "Yash bhadiyadra"
+---
+# 2nd way to create KEY VALUE
+{
+  19: "Ankit jodhani",
+  18: "Isha godaliya",
+  17: "Juhil godhani",
+  31: "Priyank naliyadra",
+  66: "Tushar bhut",
+  52: "Priyam sakariya",
+  03: "Yash bhadiyadra",
+}
+--- # this dashes are tell to YAML that now user starting new data type or new document
+
+# lists
+# this is one type of document
+- apple
+- Apple
+- banana
+- mango
+- ankit
+- priyam
+- mummy
+- daddy
+- sister
+
+--- # this dash is required to tell YAML that this is differet document then previous one
+
+# Blocks
+# this is one type of document
+# 1st way to create BLOCK
+cities:
+  - new delhi
+  - mumbai
+  - surat
+  - ahemdabad
+  - bangluru
+  - noida
+---
+# 2nd way to create BLOCK
+cities:[new delhi,mumbai,surat,ahemdabad,bangluru,noida,ahemdabad] # block
+... # this dots are required to tell that all documets are OVER.
